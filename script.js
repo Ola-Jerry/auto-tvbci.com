@@ -4,11 +4,17 @@ menuToggle?.addEventListener('click', () => nav.classList.toggle('open'));
 
 document.querySelectorAll('.nav a').forEach(link => link.addEventListener('click', () => nav.classList.remove('open')));
 
-document.querySelectorAll('.thumb').forEach(button => {
-  button.addEventListener('click', () => {
-    document.querySelector('#main-photo').src = button.dataset.image;
-    document.querySelectorAll('.thumb').forEach(item => item.classList.remove('active'));
-    button.classList.add('active');
+document.querySelectorAll('.vehicle-gallery').forEach(gallery => {
+  const mainPhoto = gallery.querySelector('.main-photo');
+  const thumbs = gallery.querySelectorAll('.thumb');
+
+  thumbs.forEach(button => {
+    button.addEventListener('click', () => {
+      mainPhoto.src = button.dataset.image;
+
+      thumbs.forEach(item => item.classList.remove('active'));
+      button.classList.add('active');
+    });
   });
 });
 
