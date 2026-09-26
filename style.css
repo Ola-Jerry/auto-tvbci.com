@@ -3,4 +3,6 @@
   background:
     linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
     url("assets/tvbci-auto-hero.png") center/cover no-repeat;
+min-height: 650px;
+padding: 80px 20px;
 }
