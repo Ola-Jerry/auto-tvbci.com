@@ -6,3 +6,24 @@
 min-height: 650px;
 padding: 80px 20px;
 }
+.hero-intro{
+  max-width:900px;
+  margin:0 auto;
+  padding:45px 20px 30px;
+  text-align:center;
+}
+
+.hero-intro h1{
+  font-size:clamp(30px,6vw,48px);
+  margin:0 0 18px;
+}
+
+.hero-intro p{
+  max-width:700px;
+  margin:0 auto;
+  line-height:1.7;
+  opacity:.8;
+}
+.hero .eyebrow{
+  color:#fff;
+}
