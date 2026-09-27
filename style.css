@@ -77,3 +77,22 @@ padding: 80px 20px;
   font-size:14px;
   white-space:nowrap;
 }
+@media (max-width: 768px){
+
+  .hero-title,
+  .hero h1{
+    font-size:42px;
+    line-height:1.02;
+  }
+
+  .hero-actions{
+    transform:translateY(20px);
+  }
+  
+.hero .eyebrow{
+  transform:translateY(38px);
+  color:#fff;
+  font-weight:800;
+  letter-spacing:3px;
+}
+}
