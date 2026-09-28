@@ -96,3 +96,10 @@ padding: 80px 20px;
   letter-spacing:3px;
 }
 }
+.hero-intro{
+  padding:35px 20px;
+}
+
+.hero-intro p{
+  margin:0 auto;
+}
