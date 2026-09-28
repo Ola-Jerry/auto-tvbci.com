@@ -103,3 +103,8 @@ padding: 80px 20px;
 .hero-intro p{
   margin:0 auto;
 }
+@media (max-width:768px){
+  #vehicules{
+    padding-top:35px;
+  }
+}
