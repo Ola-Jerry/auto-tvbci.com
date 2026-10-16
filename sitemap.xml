@@ -1,53 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-  <loc>https://auto.tvbci.com/</loc>
+    <loc>https://auto.tvbci.com/</loc>
   </url>
-
   <url>
     <loc>https://auto.tvbci.com/nissan-rogue-sport-2021.html</loc>
   </url>
-
   <url>
     <loc>https://auto.tvbci.com/kia-sportage-2021.html</loc>
   </url>
-
   <url>
     <loc>https://auto.tvbci.com/hyundai-tucson-2022.html</loc>
   </url>
-  
-<url>
-  <loc>https://auto.tvbci.com/kia-seltos-sx-2021.html</loc>
-</url>
-
-  <url> 
-  <loc>https://auto.tvbci.com/hyundai-tucson-2021.html</loc>
-</url> 
-
- <url>
- <loc>https://auto.tvbci.com/hyundai-kona-2021.html</loc>
- </url>
-
- <url>
- <loc>https://auto.tvbci.com/acura-rdx-aspec-2021.html</loc>
- </url>
-   
- <url>
- <loc>https://auto.tvbci.com/kia-sportage-2022.html</loc>
- </url>
-
-<url>
- <loc>https://auto.tvbci.com/hyundai-elantra-2023.html</loc>
- </url>
-   
-<url><loc>https://auto.tvbci.com/kia-sportage-2021-noir.html</loc></url>
-<url><loc>https://auto.tvbci.com/mazda-cx9-2020.html</loc></url>
-<url><loc>https://auto.tvbci.com/hyundai-elantra-limited-2022.html</loc></url>
-<url><loc>https://auto.tvbci.com/mercedes-gle43.html</loc></url>
-<url><loc>https://auto.tvbci.com/hyundai-tucson-hybride-2024.html</loc></url>
-<url><loc>https://auto.tvbci.com/chevrolet-trax-2019-2020.html</loc></url>
-<url><loc>https://auto.tvbci.com/jac-js5-2024.html</loc></url>
-<url><loc>https://auto.tvbci.com/mercedes-glc300.html</loc></url>
+  <url>
+    <loc>https://auto.tvbci.com/kia-seltos-sx-2021.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/hyundai-tucson-2021.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/hyundai-kona-2021.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/acura-rdx-aspec-2021.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/kia-sportage-2022.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/hyundai-elantra-2023.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/kia-sportage-2021-noir.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/mazda-cx9-2020.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/hyundai-elantra-limited-2022.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/mercedes-gle43.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/hyundai-tucson-hybride-2024.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/chevrolet-trax-2019-2020.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/jac-js5-2024.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/mercedes-glc300.html</loc>
+  </url>
+  <url>
+    <loc>https://auto.tvbci.com/jeep-wrangler-rubicon-2021.html</loc>
+  </url>
 </urlset>
