@@ -168,3 +168,15 @@ h1,h2,h3{color:var(--ci-orange)}
 .vehicle-page .details{background:#fff;border:1px solid var(--ci-line);border-radius:16px;padding:24px}
 .vehicle-page .whatsapp-btn{display:inline-flex;align-items:center;justify-content:center;background:var(--ci-green);color:#fff;border-radius:9px;padding:14px 20px;font-weight:800;text-decoration:none}
 @media(max-width:600px){.vehicle-page .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.vehicle-page .whatsapp-btn{width:100%;text-align:center}}
+
+/* iPhone data detectors may turn large prices into blue phone-number links. */
+.price a,.price a:link,.price a:visited,.price a:hover,.price a:active,
+.price [x-apple-data-detectors],.price [x-apple-data-detectors] *,
+.vehicle-price a,.vehicle-price a:link,.vehicle-price a:visited,
+.vehicle-price [x-apple-data-detectors],.vehicle-price [x-apple-data-detectors] *{
+ color:var(--ci-orange,#b6410b)!important;
+ -webkit-text-fill-color:var(--ci-orange,#b6410b)!important;
+ text-decoration:none!important;
+ border-bottom:0!important;
+ font:inherit!important;
+}
