@@ -113,3 +113,58 @@ padding: 80px 20px;
     margin-top:-25px;
   }
 }
+
+/* TVB CI — Côte d’Ivoire identity, 23 October 2026.
+   Orange lettering, white surfaces, green accents: matched to Marketplace. */
+:root{--ci-orange:#b6410b;--ci-button:#b6410b;--ci-green:#087a48;--ci-ink:#15342a;--ci-muted:#52685d;--ci-line:#cfdfd3;--ci-soft:#e8f5ec;--black:#f7faf7;--dark:#f7faf7;--panel:#fff;--gold:#b6410b;--gold-light:#b6410b;--white:#fff;--muted:#52685d;--line:#cfdfd3}
+body{background:#f7faf7;color:var(--ci-ink)}
+.site-header,.immo-header{background:#fff!important;border-top:5px solid transparent;border-bottom:1px solid var(--ci-line);border-image:linear-gradient(to right,#d9510b 0 33.333%,#fff 33.333% 66.666%,#087a48 66.666% 100%) 1}
+.brand,.brand span,.immo-brand{color:var(--ci-orange)!important}
+.site-header nav a,.nav a,.immo-header a{color:var(--ci-orange)!important}
+.site-header nav a:hover,.nav a:hover,.immo-header a:hover{color:var(--ci-green)!important}
+.menu-toggle{color:var(--ci-orange)}
+h1,h2,h3{color:var(--ci-orange)}
+.eyebrow{color:var(--ci-green)}
+.btn-gold{background:var(--ci-button);color:#fff;border:1px solid var(--ci-button)}
+.btn-gold:hover{background:#943408;color:#fff}
+.btn-outline,.dark-outline{background:#fff;border:1px solid var(--ci-green);color:var(--ci-orange)}
+.btn-outline:hover,.dark-outline:hover{background:var(--ci-soft);color:var(--ci-orange)}
+.btn:focus-visible,nav a:focus-visible,.immo-btn:focus-visible,.menu-toggle:focus-visible{outline:3px solid var(--ci-green);outline-offset:4px}
+.hero h1,.hero h2,.hero .hero-title{color:#fff}
+.hero .eyebrow,.hero .hero-text{color:#fff}
+.hero .btn-outline{background:#fff;color:var(--ci-orange)}
+.department-card,.vehicle-card,.service{background:#fff;border-color:var(--ci-line);box-shadow:0 8px 24px rgb(21 52 42 / 4%)}
+.department-card:hover{border-color:var(--ci-green)}
+.department-card h3,.department-card a,.service span{color:var(--ci-orange)}
+.department-card p,.section-note,.muted,.vehicle-year,.negotiable,.disclaimer,.service p,.contact-section p{color:var(--ci-muted)}
+.department-card,.vehicle-card,.service,.vehicle-info,.section-heading{min-width:0}
+.price{display:block;max-width:100%;padding:12px 16px;background:var(--ci-soft);border:1px solid var(--ci-green);border-radius:12px;color:var(--ci-orange)!important;text-align:center;overflow-wrap:anywhere}
+.price small{display:block;margin-top:4px;font-size:.85rem;letter-spacing:.06em}
+.hero-badge,.pill{border-color:var(--ci-green);background:var(--ci-soft);color:var(--ci-green)}
+.hero-panel{background:var(--ci-soft);border-color:var(--ci-line);box-shadow:none}
+.hero-panel p{color:var(--ci-muted)}
+.spec-grid div{border-color:var(--ci-line)}
+.spec-grid span{color:var(--ci-muted)}
+.thumb.active{border-color:var(--ci-green)}
+.vehicle-gallery .main-photo{background:var(--ci-soft)!important}
+.footer,.immo-footer{background:#fff;color:var(--ci-muted);border-top:1px solid var(--ci-line)}
+.footer a{color:var(--ci-orange)}
+@media(max-width:850px){.nav{background:#fff;border-color:var(--ci-line)}}
+
+/* Auto retains its existing vehicle photos, galleries and hero layout. */
+.hero{background:linear-gradient(rgba(5,58,36,.34),rgba(5,58,36,.48)),url("assets/auto-tvbci-hero.jpeg") center top/contain no-repeat;background-color:#087a48}
+.hero-intro{background:var(--ci-green);color:#fff}
+.hero-intro h1,.hero-intro p{color:#fff;opacity:1}
+.services{border-color:var(--ci-line)}
+.contact-section{background:var(--ci-soft);border-color:var(--ci-line)}
+@media(max-width:850px){.nav a{border-color:var(--ci-line)}}
+
+/* Legacy Elantra page: same identity, using its existing content and photo grid. */
+.vehicle-page{max-width:1120px;margin:0 auto;padding:30px 5%;border-top:5px solid transparent;border-image:linear-gradient(to right,#d9510b 0 33.333%,#fff 33.333% 66.666%,#087a48 66.666% 100%) 1}
+.vehicle-page .vehicle-price{padding:14px;background:var(--ci-soft);color:var(--ci-orange);border:1px solid var(--ci-green);border-radius:12px;text-align:center;font-size:clamp(22px,5vw,32px);font-weight:900;margin:20px 0}
+.vehicle-page .main-photo img{display:block;width:100%;max-height:600px;object-fit:contain;background:var(--ci-soft);border-radius:16px}
+.vehicle-page .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 28px}
+.vehicle-page .gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
+.vehicle-page .details{background:#fff;border:1px solid var(--ci-line);border-radius:16px;padding:24px}
+.vehicle-page .whatsapp-btn{display:inline-flex;align-items:center;justify-content:center;background:var(--ci-green);color:#fff;border-radius:9px;padding:14px 20px;font-weight:800;text-decoration:none}
+@media(max-width:600px){.vehicle-page .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.vehicle-page .whatsapp-btn{width:100%;text-align:center}}
