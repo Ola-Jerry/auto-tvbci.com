@@ -185,3 +185,7 @@ h1,h2,h3{color:var(--ci-orange)}
 .hero-intro{max-width:none;width:100%;margin:0;padding:24px 20px 35px;background:#087a48;color:#fff}
 .hero-intro .eyebrow{max-width:100%;margin:0 auto 24px;transform:none;color:#fff;opacity:1;font-size:12px;font-weight:800;letter-spacing:3px;text-align:center;line-height:1.6}
 .hero-intro p:not(.eyebrow){max-width:700px;margin:0 auto;color:#fff;opacity:1}
+
+/* Broad daylight hero: preserve bright scene with shade only behind heading. */
+.hero{background:linear-gradient(to bottom,rgba(0,0,0,.30),transparent 45%),url("assets/auto-tvbci-hero-daylight-v3.jpg") center top/contain no-repeat;background-color:#087a48}
+.hero .hero-title{color:#fff;text-shadow:0 2px 5px rgba(0,0,0,.75)}
