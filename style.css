@@ -180,3 +180,8 @@ h1,h2,h3{color:var(--ci-orange)}
  border-bottom:0!important;
  font:inherit!important;
 }
+
+/* Keep the brand and description together on one solid green panel. */
+.hero-intro{max-width:none;width:100%;margin:0;padding:24px 20px 35px;background:#087a48;color:#fff}
+.hero-intro .eyebrow{max-width:100%;margin:0 auto 24px;transform:none;color:#fff;opacity:1;font-size:12px;font-weight:800;letter-spacing:3px;text-align:center;line-height:1.6}
+.hero-intro p:not(.eyebrow){max-width:700px;margin:0 auto;color:#fff;opacity:1}
