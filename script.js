@@ -18,4 +18,5 @@ document.querySelectorAll('.vehicle-gallery').forEach(gallery => {
   });
 });
 
-document.querySelector('#year').textContent = new Date().getFullYear();
+const yearNode = document.querySelector('#year');
+if (yearNode) yearNode.textContent = new Date().getFullYear();
